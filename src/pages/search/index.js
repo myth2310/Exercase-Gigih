@@ -18,7 +18,7 @@ class Sample extends Component {
   
   handleSubmit = (e) => {
     e.preventDefault();
-    let apiKey = `p0WvM4QMPmaxAeBcReCG4dDVMSA9vQJK`;
+    let apiKey = REACT_APP_GIPHY;
     let query = this.state.searchQuerry ;
     let limit = 12;
     let baseUrl = `http://api.giphy.com/v1/gifs/search?api_key=${apiKey}&limit=${limit}&q=${query}`;
