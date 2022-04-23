@@ -21,7 +21,7 @@ class Sample extends Component {
     let apiKey = String(process.env.REACT_APP_GIPHY_CLIENT_ID);
     let query = this.state.searchQuerry ;
     let limit = 12;
-    let baseUrl = `http://api.giphy.com/v1/gifs/search?api_key=${apiKey}&limit=${limit}&q=${query}`;
+    let baseUrl = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&limit=${limit}&q=${query}`;
 
     fetch(baseUrl)
     .then((res) => res.json())
