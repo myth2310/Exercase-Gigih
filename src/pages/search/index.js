@@ -34,6 +34,10 @@ class Sample extends Component {
   render() {
     return (
       <>
+       <div className="header">  
+         <h1>Welcome to <span className="gigih">GIGIH</span> <span>GIPHY</span></h1>
+         <p>Silahkan cari gambar Gift pada kolom search 😀</p>
+      </div>  
       <form onSubmit={this.handleSubmit}>
         <input
           type="text"
