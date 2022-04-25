@@ -1,3 +1,4 @@
+
 form{
     margin-left: 40%;
     margin-top: 50px;
@@ -12,6 +13,7 @@ form{
     background-color: black;
     color: white;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 .button:hover{
@@ -23,3 +25,30 @@ form{
     margin-left: 20px;
     color: red;
 }
+
+@media (max-width: 600px) {
+    form {
+      margin: 10px 0;
+      margin-left: 30%;  
+    }
+  }
+
+  .header{
+      text-align: center;
+  }
+
+  .header p{
+      font-size: 15px;
+  }
+
+  span{
+      color: blue;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 20px;
+  }
+
+  .gigih{
+      color: rgb(49, 202, 69);
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 40px;
+  }
